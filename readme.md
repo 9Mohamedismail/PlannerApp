@@ -81,7 +81,7 @@ Easily revisit past entries to track your mood patterns and observe personal gro
 
 ## Wireframes
 
-<img src="https://imgur.com/a/7EvOc0y" width=600>
+<img src="https://ibb.co/bbLfBYY" width=600>
 
 ## Schema 
 
