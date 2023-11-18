@@ -45,7 +45,7 @@ Easily revisit past entries to track your mood patterns and observe personal gro
 
 * [X] User can track their daily mood
 * [X] User can write down their daily thoughts
-* [INCOMPLETE] User can revisit past entries through a calendar view
+* [] INCOMPLETE User can revisit past entries through a calendar view
 
 **Optional Nice-to-have Stories**
 
