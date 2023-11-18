@@ -83,9 +83,16 @@ Easily revisit past entries to track your mood patterns and observe personal gro
 
 ![Wireframe](wireframe.jpg)
 
-## Schema 
+## Updates 
 
-[This section will be completed in Unit 9]
+Unit 9 Video:
+<div>
+    <a href="https://www.loom.com/share/406db09d31e24583a7683a020cfa6023">
+    </a>
+    <a href="https://www.loom.com/share/406db09d31e24583a7683a020cfa6023">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/406db09d31e24583a7683a020cfa6023-with-play.gif">
+    </a>
+  </div>
 
 ### Models
 
