@@ -43,9 +43,9 @@ Easily revisit past entries to track your mood patterns and observe personal gro
 
 **Required Must-have Stories**
 
-* User can track their daily mood
-* User can write down their daily thoughts
-* User can revisit past entries through a calendar view
+[X] User can track their daily mood
+[X] User can write down their daily thoughts
+[INCOMPLETE] User can revisit past entries through a calendar view
 
 **Optional Nice-to-have Stories**
 
@@ -83,7 +83,7 @@ Easily revisit past entries to track your mood patterns and observe personal gro
 
 ![Wireframe](wireframe.jpg)
 
-## Updates 
+## Schema 
 
 Unit 9 Video:
 <div>
