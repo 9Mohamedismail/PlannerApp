@@ -9,6 +9,51 @@ import UIKit
 
 class MoodViewController: UIViewController {
 
+    @IBAction func happyButton(_ sender: UIButton) {
+        saveMood("happy")
+        print("Happy")
+    }
+    
+    @IBAction func energeticButton(_ sender: UIButton) {
+        saveMood("energetic")
+        print("Energetic")
+    }
+    
+    @IBAction func sadButton(_ sender: UIButton) {
+        saveMood("sad")
+        print("Sad")
+    }
+    
+    @IBAction func relaxedButton(_ sender: UIButton) {
+        saveMood("relaxed")
+        print("Relaxed")
+    }
+    
+    @IBAction func inspiredButton(_ sender: UIButton) {
+        saveMood("inspired")
+        print("Inspired")
+    }
+    
+    @IBAction func stressedButton(_ sender: UIButton) {
+        saveMood("stressed")
+        print("Stressed")
+    }
+    
+    @IBAction func angryButton(_ sender: UIButton) {
+        saveMood("angry")
+        print("Angry")
+    }
+    
+    @IBAction func anxiousButton(_ sender: UIButton) {
+        saveMood("anxious")
+        print("Anxious")
+    }
+    
+    @IBAction func confusedButton(_ sender: UIButton) {
+        saveMood("confused")
+        print("Confused")
+    }
+    
     @IBOutlet weak var confusedMood: UIImageView!
     @IBOutlet weak var anxiousMood: UIImageView!
     @IBOutlet weak var angryMood: UIImageView!
@@ -18,9 +63,16 @@ class MoodViewController: UIViewController {
     @IBOutlet weak var sadMood: UIImageView!
     @IBOutlet weak var inspiredMood: UIImageView!
     @IBOutlet weak var happyMood: UIImageView!
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        if let savedMood = getSavedMood() {
+                   print("Retrieved saved mood: \(savedMood)")
+               } else {
+                   print("No saved mood found")
+               }
 
         happyMood.image = UIImage(named: "happy", in: Bundle.main, compatibleWith: nil)
         inspiredMood.image = UIImage(named: "inspired", in: Bundle.main, compatibleWith: nil)
@@ -34,15 +86,21 @@ class MoodViewController: UIViewController {
 
     }
     
+    // Function to save the mood to UserDefaults
+       func saveMood(_ mood: String) {
+           let defaults = UserDefaults.standard
+           defaults.set(mood, forKey: "savedMoodKey")
+           // Synchronize UserDefaults to make sure the data is saved immediately
+           defaults.synchronize()
+        
+       }
 
-    /*
-    // MARK: - Navigation
+       // Function to retrieve the saved mood from UserDefaults
+       func getSavedMood() -> String? {
+           let defaults = UserDefaults.standard
+           return defaults.string(forKey: "savedMoodKey")
+       }
+    
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

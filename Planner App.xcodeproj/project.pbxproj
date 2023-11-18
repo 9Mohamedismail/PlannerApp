@@ -14,6 +14,10 @@
 		D9AC008C2AFEF6D700D6DA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AC008B2AFEF6D700D6DA86 /* Assets.xcassets */; };
 		D9AC008F2AFEF6D700D6DA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9AC008D2AFEF6D700D6DA86 /* LaunchScreen.storyboard */; };
 		D9AC00992AFF037600D6DA86 /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC00982AFF037600D6DA86 /* MoodViewController.swift */; };
+		D9E945C32B051B95007450BE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E945C22B051B95007450BE /* CalendarViewController.swift */; };
+		D9E945C52B05D9ED007450BE /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E945C42B05D9ED007450BE /* NotesViewController.swift */; };
+		D9E945C72B05DD2E007450BE /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E945C62B05DD2E007450BE /* EntryViewController.swift */; };
+		D9E945C92B05DECF007450BE /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E945C82B05DECF007450BE /* NoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		D9AC008E2AFEF6D700D6DA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9AC00902AFEF6D700D6DA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9AC00982AFF037600D6DA86 /* MoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodViewController.swift; sourceTree = "<group>"; };
+		D9E945C22B051B95007450BE /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = "../../ios101-project7-task-starter-main/ios101-project7-task/CalendarViewController.swift"; sourceTree = "<group>"; };
+		D9E945C42B05D9ED007450BE /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		D9E945C62B05DD2E007450BE /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		D9E945C82B05DECF007450BE /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +66,13 @@
 		D9AC00812AFEF6D600D6DA86 /* Planner App */ = {
 			isa = PBXGroup;
 			children = (
+				D9E945C42B05D9ED007450BE /* NotesViewController.swift */,
+				D9E945C62B05DD2E007450BE /* EntryViewController.swift */,
 				D9AC00822AFEF6D600D6DA86 /* AppDelegate.swift */,
 				D9AC00842AFEF6D600D6DA86 /* SceneDelegate.swift */,
 				D9AC00862AFEF6D600D6DA86 /* ViewController.swift */,
+				D9E945C82B05DECF007450BE /* NoteViewController.swift */,
+				D9E945C22B051B95007450BE /* CalendarViewController.swift */,
 				D9AC00882AFEF6D600D6DA86 /* Main.storyboard */,
 				D9AC008B2AFEF6D700D6DA86 /* Assets.xcassets */,
 				D9AC008D2AFEF6D700D6DA86 /* LaunchScreen.storyboard */,
@@ -141,7 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9E945C92B05DECF007450BE /* NoteViewController.swift in Sources */,
+				D9E945C32B051B95007450BE /* CalendarViewController.swift in Sources */,
 				D9AC00872AFEF6D600D6DA86 /* ViewController.swift in Sources */,
+				D9E945C52B05D9ED007450BE /* NotesViewController.swift in Sources */,
+				D9E945C72B05DD2E007450BE /* EntryViewController.swift in Sources */,
 				D9AC00992AFF037600D6DA86 /* MoodViewController.swift in Sources */,
 				D9AC00832AFEF6D600D6DA86 /* AppDelegate.swift in Sources */,
 				D9AC00852AFEF6D600D6DA86 /* SceneDelegate.swift in Sources */,
